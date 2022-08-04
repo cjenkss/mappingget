@@ -37,6 +37,16 @@ for line in read:
 
 print(moddedNotes)
 
+print('BREAK HERE')
+deseNotes = open('ur.txt', 'r')
+reading = deseNotes.readlines()
+moddedDese = []
+
+for line in reading:
+    moddedDese.append(line.strip()) #this does the same as the lines above but WAY simpler
+
+print(moddedDese)
+
 
 
 
