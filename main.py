@@ -1,5 +1,6 @@
 class test():
     print("hello class")
+    print("kazu branch test")
     
 
 
