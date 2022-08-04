@@ -23,6 +23,8 @@ while True:
         break
     currentNode = currentNode.next
 
+print("this is a print")
+
 
 
 
