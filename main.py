@@ -1,6 +1,9 @@
 class test():
     print("hello class")
     
+class DatBoi():
+    print("he a comin")
+
 
 
 
