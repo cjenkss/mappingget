@@ -8,9 +8,9 @@ class DatBoi():
         self.next = next
 
 # "3" -> "7" -> "10"
-node1 = DatBoi("3")
-node2 = DatBoi("7")
-node3 = DatBoi("10")
+node1 = DatBoi("he")
+node2 = DatBoi("a")
+node3 = DatBoi("comin")
 
 node1.next = node2 #node 1 is pointing to node 2, 3 points to 7
 node2.next = node3 #node 2 points to node 3, 7 points to 10
@@ -19,7 +19,7 @@ currentNode = node1
 while True:
     print(currentNode.value, "->", end=" ")
     if currentNode.next is None:
-        print("None")
+        print("LAWD")
         break
     currentNode = currentNode.next
 
